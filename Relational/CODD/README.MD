@@ -159,16 +159,16 @@ cannot be done using relational algebra.
 ### Codd Rules
 Codd rules were proposed by E.F. Codd which should be satisfied by relational model.
 
-    Foundation Rule: For any system that is advertised as, or claimed to be, a relational data base management system, that system must be able to manage data bases entirely through its relational capabilities.
-    Information Rule: Data stored in Relational model must be a value of some cell of a table.
-    Guaranteed Access Rule: Every data element must be accessible by table name, its primary key and name of attribute whose value is to be determined.
-    Systematic Treatment of NULL values: NULL value in database must only correspond to missing, unknown or not applicable values.
-    Active Online Catalog: Structure of database must be stored in an online catalog which can be queried by authorized users.
-    Comprehensive Data Sub-language Rule: A database should be accessible by a language supported for definition, manipulation and transaction management operation.
-    View Updating Rule: Different views created for various purposes should be automatically updatable by the system.
-    High level insert, update and delete rule: Relational Model should support insert, delete, update etc. operations at each level of relations. Also, set operations like Union, Intersection and minus should be supported.
-    Physical data independence: Any modification in the physical location of a table should not enforce modification at application level.
-    Logical data independence: Any modification in logical or conceptual schema of a table should not enforce modification at application level. For example, merging of two tables into one should not affect application accessing it which is difficult to achieve.
-    Integrity Independence: Integrity constraints modified at database level should not enforce modification at application level.
-    Distribution Independence: Distribution of data over various locations should not be visible to end-users.
-    Non-Subversion Rule: Low level access to data should not be able to bypass integrity rule to change data.
+> Foundation Rule: For any system that is advertised as, or claimed to be, a relational data base management system, that system must be able to manage data bases entirely through its relational capabilities.
+Information Rule: Data stored in Relational model must be a value of some cell of a table.
+Guaranteed Access Rule: Every data element must be accessible by table name, its primary key and name of attribute whose value is to be determined.
+Systematic Treatment of NULL values: NULL value in database must only correspond to missing, unknown or not applicable values.
+Active Online Catalog: Structure of database must be stored in an online catalog which can be queried by authorized users.
+Comprehensive Data Sub-language Rule: A database should be accessible by a language supported for definition, manipulation and transaction management operation.
+View Updating Rule: Different views created for various purposes should be automatically updatable by the system.
+High level insert, update and delete rule: Relational Model should support insert, delete, update etc. operations at each level of relations. Also, set operations like Union, Intersection and minus should be supported.
+Physical data independence: Any modification in the physical location of a table should not enforce modification at application level.
+Logical data independence: Any modification in logical or conceptual schema of a table should not enforce modification at application level. For example, merging of two tables into one should not affect application accessing it which is difficult to achieve.
+Integrity Independence: Integrity constraints modified at database level should not enforce modification at application level.
+Distribution Independence: Distribution of data over various locations should not be visible to end-users.
+Non-Subversion Rule: Low level access to data should not be able to bypass integrity rule to change data.
